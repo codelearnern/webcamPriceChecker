@@ -10,7 +10,7 @@
 
 # print(price.prettify())
 
-# NOT WORKING DUE TO AMAZON BLOCING BEAUTIFULSOUP BOTS
+# NOT WORKING DUE TO AMAZON BLOCKING BEAUTIFULSSOUP BOTS
 
 from selenium import webdriver
 from sendGmail.sender import send_msg, create_msg
