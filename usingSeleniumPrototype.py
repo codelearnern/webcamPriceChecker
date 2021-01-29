@@ -35,13 +35,13 @@ while True:
 	c920xPrice = driver.find_element_by_id("priceblock_ourprice")
 
 	if float(c920xPrice.text.replace("$", "")) < 67.5:
-		msg = create_msg("ayaan.panda1@gmail.com",
-						"ayaan.panda1@gmail.com",
+		msg = create_msg("youremail@gmail.com",
+						"youremail@gmail.com",
 						"LOGITECH c920",
 						f"""LOGITECH C920 IS LESS THAN $67.50 DOLLARS, it is {c920xPrice.text} 
 						GO TO AMAZON AND BUY IT NOW PLEASE 
 						,by the way, this is from a bot you created :)""")
-		send_msg(service, "ayaan.panda1@gmail.com", msg)
+		send_msg(service, "youremail@gmail.com", msg)
 	else:
 		print("it is more than $67.50 dollars, don't buy it")
 
